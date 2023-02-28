@@ -1,90 +1,153 @@
-/* PROBLEM 1: Remove white margin of body, html */
-/* YOUR CODE HERE */
-#content {
-	margin: 0;
+body {
+    margin: 0px;
+    font-family: 'Karla';
+    background: #f7f5f2;
+    padding: 60px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.img-scaled {
+    width: 100%;
+}
+
+.img-scaled-wh {
+    width: 100%;
+    height: 100%:
+}
+
+.clear {
+    clear: both;
+}
+
+* {
+    outline: none;
+}
+
+#data {
+	display: none;
+}
+
+#container {
+    width: 720px;
+    margin: 0px auto;
+    background: white;
+    box-shadow: 0px 0px 5px #edeae5;
+    border-radius: 2px;
+    position: relative;
+    padding: 30px 0px;
+}
 #header {
-	margin: 0;
+    background: #78c272;
+    padding: 15px;
+    color: white;
+    width: 270px;
 }
-
-#pictures {
-	margin: 0;
+#header-caption-logo {
+    width: 20px;
+    float: left;
 }
-/* PROBLEM 2: Select profile picture and make it round */
-/* YOUR CODE HERE */
-
-#profile-pic {
-	border-radius: 50%;
-	overflow: hidden;
+#header-caption-name {
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
 }
-
-/* PROBLEM 3: Flesh our your follow button! 5 px for the
-top and bottom, 30 for the left and right*/
-/* YOUR CODE HERE */
-#follow-button {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
+#header-caption {
+    margin-bottom: 6px;
+    opacity: 0.6;
 }
-
-/* PROBLEM 4: Turn items into a square, 120x120 px image */
-/* YOUR CODE HERE */
-.item {
-	width: 120px;
-	height: 120px;
-	margin-bottom: 10px;
-	margin-left: 10px;
+#header-title {
+    font-size: 18px;
+    font-weight: 300;
+    float: left;
 }
-/* PROBLEM 5: Create a 10 px horizontal space between items */
-/* YOUR CODE HERE */
-.item {
-	margin: 10px;
+#header-due {
+    float: left;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 2px solid rgba(255, 255, 255, 0.15);
 }
-/* PROBLEM 6: Create a 10px vertical space between rows */
-/* YOUR CODE HERE */
-.item {
-	margin: 5px;
+.section {
+    margin: 30px 0px;
+    padding: 0px 30px;
 }
-/* PROBLEM 7: Add 20px of space between each navigation item */
-/* YOUR CODE HERE */
-.navbar-item {
-	padding: 0px 10px 0px 10px;
+#submission-header, .info-title {
+    text-align: left;
+    color: #78c272;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
-/* PROBLEM 8: Create a hover effect, so that items will have
-full opacity when hovered over! It should also have a
-transition period of 0.2 seconds*/
-/* YOUR CODE HERE */
-.item:hover {
-	opacity: 100%;
-	transition-duration: 0.2s;
+#submission-content, .info-content {
+    padding: 15px;
+    background: rgba(120, 194, 114, 0.1);
+    border-radius: 2px;
+    color: #4c5765;
 }
-
-/* PROBLEM 9: Add a click effect to the follow button, so
-the font becomes size 18 px when clicked on - as a result, the button will become
-larger when clicked on!*/
-/* YOUR CODE HERE */
-#follow-button:active {
-	font-size: 18px;
+.info-required {
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.75;
+    margin-bottom: 10px;
 }
-
-/* PROBLEM 10: Add a hover effect such that the text of the
-navigation has an opacity of 1 when hovered over!*/
-/* YOUR CODE HERE */
-.navbar-item:hover {
-	opacity: 25%;
+.info-intro {
+    line-height: 24px;
+    font-size: 16px;
+    opacity: 0.75;
 }
-/* PROBLEM 11: In one selection, make the follow button, picture
-items, and nav bar items have a pointer cursor */
-#follow-button{
-	cursor: pointer;
+.info {
+    margin-bottom: 30px;
 }
-
-.item {
-	cursor: pointer;
+.body-header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #78c272;
 }
-
-.navbar-item{
-	cursor: pointer;
+.body p {
+    line-height: 24px;
+}
+.body img {
+	width: 100%;
+}
+.body a {
+	color: #78c272;
+}
+.body li {
+    line-height: 24px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.body {
+    color: #4c5765;
+}
+.body .caption {
+    opacity: 0.6;
+}
+#submission {
+    padding: 0px 30px;
+}
+#submission-content p, #submission-content li {
+    line-height: 24px;
+    opacity: 0.75;
+}
+.download {
+    background: #78c272;
+    color: white;
+    width: 240px;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 30px auto;
+    cursor: pointer;
 }
