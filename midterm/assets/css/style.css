@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lora:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav li, a, button {
+    font-family: "Irish Grover";
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbar-items {
+    list-style: none;
+}
+
+.navbar-items li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-items li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-items li a:hover{
+    color: white;
+    opacity: 50%;
+}
+
+button{
+    margin-left: 35px;
+    padding: 10px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #222222;
+}
+
+#nav {
+    background-color: #4D0C0C;
+}
+
+#banner {
+    background-color: white;
+}
+
+#quote{
+    font-family: 'Lora', serif;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: 75px;
+}
+
+
+body{
+    font-family: "Irish Grover";
+}
+
+#findus{
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: #4D0C0C;
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4D0C0C;
+    color: white;
+    font-family: 'Lora', serif;
+    padding: 20px;
+}
+
+.single-location h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.single-location span{
+    font-weight: bold;
+}
+
+.single-location p{
+    font-size: 14px;
+}
+
+.open-times span{
+    font-weight: bold;
+}
+
+.open-times{
+    font-size: 14px;
+}
+
+.uber {
+    display: flex;
+    background-color: #4D0C0C;
+    padding: 20px;
+    justify-content: center;
+}
