@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.book {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+}
+
+.book:hover {
+  transform: rotate(-15deg);
+}
+
+.book {
+  z-index: 1;
+}
+
+.machine-box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  right: 80px;
+}
+
+.machine-down,
+.machine-up {
+  width: 50%;
+  height: 50%;
+  top: 100px;
+  left: 30%;
+  position: relative;
+}
+
+.machine-up {
+  z-index: 1;
+}
+
+.btn-box {
+  position: relative;
+  width: 325px;
+  height: 325px;
+  left: 475px;
+  bottom: 185px;
+}
+
+.btn-down,
+.btn-up {
+  width: 50%;
+  height: 50%;
+  top: 50px;
+  left: 45%;
+  position: absolute;
+
+}
+
+.btn-up {
+  z-index: 1;
+}
+
+
+

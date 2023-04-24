@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        FINAL
-    </body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="script.js"></script>
+    <title>tiff's claw machine</title>
+  </head>
+
+  <body>
+    <div class="collection">
+      <a href="collectionlist.html">
+        <img class="book" src="assets/img/Collectionbtn.png" width="300px" />
+      </a>
+    </div>
+
+    <div class="machine-box">
+      <img
+        class="machine-down"
+        id="claw-grab"
+        src="assets/img/GrabMachine.png"
+        width="600px"
+        style="display: none"
+      />
+      <img
+        id="claw-down"
+        class="machine-up"
+        src="assets/img/DefaultMachine.png"
+        width="600px"
+        style="display: block"
+      />
+    </div>
+
+    <div class="btn-box">
+        <img class="btn-down" src="assets/img/redbtn.png" width="150px" onmouseenter="bear.html"/>
+
+        <img
+        id="yellow-btn"
+        class="btn-up"
+        src="assets/img/yellowbtn.png"
+        width="150px"
+        onmouseover="clawDown()"
+        onmouseleave="clawUp()"
+        onclick="randomPage()"
+        />
+          
+    </div>
+  </body>
 </html>
