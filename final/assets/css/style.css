@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: hiddeng;
 }
 
 .book {
@@ -24,7 +24,7 @@ html, body {
   position: relative;
   width: 100%;
   height: auto;
-  right: 80px;
+  right: 6%;
 }
 
 .machine-down,
@@ -52,7 +52,7 @@ html, body {
 .btn-up {
   width: 50%;
   height: 50%;
-  top: 50px;
+  top: 15%;
   left: 45%;
   position: absolute;
 
